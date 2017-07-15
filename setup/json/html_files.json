@@ -1,0 +1,10 @@
+{
+    "files": [
+        {
+            "../release/index.html": "../build/index.html"
+        }
+    ],
+    "watch": [
+        "../build/index.html"
+    ]
+}

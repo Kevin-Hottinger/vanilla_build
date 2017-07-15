@@ -1,0 +1,14 @@
+{
+    "files": [
+        {
+            "cwd": "../build",
+            "src": "img/**",
+            "dest": "../release/",
+            "filter": "isFile",
+            "expand": true
+        }
+    ],
+    "watch": [
+        "../build/img/**"
+    ]
+}

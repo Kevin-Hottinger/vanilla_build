@@ -1,0 +1,20 @@
+{
+    "files": [
+        {
+            "dest": "../release/js/main.js",
+            "src": [
+                "../build/js/main.js"
+            ]
+        },
+        {
+            "dest": "../release/js/lib.js",
+            "src": [
+                "../build/js/jquery-2.1.4.min.js",
+                "../build/js/jquery.mobile.custom.min.js"
+            ]
+        }
+    ],
+    "watch": [
+        "../build/js/main.js"
+    ]
+}

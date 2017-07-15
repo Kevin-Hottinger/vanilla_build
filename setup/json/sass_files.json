@@ -1,0 +1,13 @@
+{
+    "files": [
+        {
+            "src": [
+                "../build/css/style.scss"
+            ],
+            "dest": "../release/css/styles.css"
+        }
+    ],
+    "watch": [
+        "../build/css/*.scss"
+    ]
+}
